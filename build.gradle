@@ -4,5 +4,6 @@ plugins {
 
 apply plugin: 'java'
 
+group = 'com.example'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = '17'
