@@ -14,7 +14,8 @@ public class Main {
     };
 
     private void start() {
-        mTimer.scheduleAtFixedRate(mTask, 1000, 1000);
+        int interval = Integer.parseInt(System.getenv("INTERVAL_MS"));
+        mTimer.scheduleAtFixedRate(mTask, 1000, interval);
     }
 
     public static void main(String[] args) {
