@@ -9,7 +9,16 @@ public class Main {
     private TimerTask mTask = new TimerTask() {
         @Override
         public void run() {
-            System.out.println("Hello world!");
+            int counter = 0;
+            counter++;
+            counter++;
+            counter++;
+            counter++;
+            counter++;
+            counter++;
+            counter++;
+            counter++;
+            counter++;
         }
     };
 
